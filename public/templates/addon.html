@@ -1,0 +1,9 @@
+<div class="slider-box">
+  <div>
+    <input ng-model="selectedNode"  type="text" id="mySlider1" slider options="options" />
+  </div>
+  <div class="slider-text">{{selectedGuitar}} - S<span ng-bind="selectedNode"></span></div>
+  <div class="row">
+    <div class="tuner-guitar" ng-repeat="g in guitars"><span ng-click="selectGuitar(g.name,g.id)" ng-class="{active: g.id==selectedGuitarId}"> {{g.name}}</span></div>
+  </div>
+</div>

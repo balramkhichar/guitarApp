@@ -1,0 +1,11 @@
+<div class="guitar-head">
+  {{guitar.name}} <span ng-click="removeGuitar(guitar, $index)">X</span>
+</div>
+<div class="guitar-body">
+  <div class="{{nodeClr[guitar.s1]}}" ng-click="makeSound(guitar.s1)"><span class="note-text">s1</span></div>
+  <div class="{{nodeClr[guitar.s2]}}" ng-click="makeSound(guitar.s2)"><span class="note-text">s2</span></div>
+  <div class="{{nodeClr[guitar.s3]}}" ng-click="makeSound(guitar.s3)"><span class="note-text">s3</span></div>
+  <div class="{{nodeClr[guitar.s4]}}" ng-click="makeSound(guitar.s4)"><span class="note-text">s4</span></div>
+  <div class="{{nodeClr[guitar.s5]}}" ng-click="makeSound(guitar.s5)"><span class="note-text">s5</span></div>
+  <div class="{{nodeClr[guitar.s6]}}" ng-click="makeSound(guitar.s6)"><span class="note-text">s6</span></div>
+</div>

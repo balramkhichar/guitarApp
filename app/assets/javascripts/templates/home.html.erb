@@ -1,0 +1,12 @@
+<div class="guitar-list">
+  <div class="guitar" ng-repeat="guitar in guitars">
+    <guitar data-guitar="guitar" data-retune-with="notes"></guitar>
+  </div>
+</div>
+
+<guitar-collector data-collection="collection"></guitar-collector>
+
+<div class="tuner">
+  <tuner data-string="selectedString" data-guitar="selectedGuitar"></tuner>
+  <tuner-addon data-selected-string="selectedString" data-selected-guitar="selectedGuitar"></tuner-addon>
+</div>

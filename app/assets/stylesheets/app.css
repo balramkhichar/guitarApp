@@ -1,0 +1,186 @@
+body{
+  padding: 100px;
+}
+
+.guitar-list{
+  display: inline-flex;
+  width: 100%;
+}
+
+.guitar{
+  width: 160px;
+  margin-right: 40px;
+}
+
+.guitar-head{
+  height:40px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.guitar-head span{
+  font-size: 16px;
+  float: right;
+  background: red;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.guitar-body{
+  display: inline-flex;
+}
+
+.nodea{
+  width:10px;
+  height:200px;
+  margin-right: 10px;
+  background: #FE642E;
+}
+
+.nodeb{
+  width:10px;
+  height:200px;
+  margin-right: 10px;
+  background:#BDBDBD;
+}
+
+.nodec{
+  width:10px;
+  height:200px;
+  margin-right: 10px;
+  background:#A4A4A4;
+}
+
+.noded{
+  width:10px;
+  height:200px;
+  margin-right: 10px;
+  background:#848484;
+}
+
+.nodee{
+  width:10px;
+  height:200px;
+  margin-right: 10px;
+  background:#6E6E6E;
+}
+
+.nodef{
+  width:10px;
+  height:200px;
+  margin-right: 10px;
+  background:#2E2E2E;
+}
+
+.note-text{
+  margin-top: 205px;
+  position: absolute;
+}
+
+.guitar-add{
+  margin-top: 50px;
+}
+
+.tuner{
+  margin-top: 50px;
+  width: 100%;
+  display: inline-flex;
+}
+
+.tuner-box{
+  border-style: groove;
+  width: 240px;
+  padding: 40px;
+  margin-right: 60px;
+}
+
+.slider-box{
+  width: 400px;
+}
+
+.tuner-title{
+  width: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-flex;
+}
+
+.tuner1{
+  width: 70px;
+  height: 50px;
+  background: #FE642E;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.tuner2{
+  width: 70px;
+  height: 50px;
+  background: #BDBDBD;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.tuner3{
+  width: 70px;
+  height: 50px;
+  background: #A4A4A4;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.tuner4{
+  width: 70px;
+  height: 50px;
+  background: #848484;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.tuner5{
+  width: 70px;
+  height: 50px;
+  background: #6E6E6E;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.tuner6{
+  width: 70px;
+  height: 50px;
+  background: #2E2E2E;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.slider-text{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+
+.tuner-guitar{
+  padding: 8px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.active{
+  background: #FE642E;
+  border-style: solid;
+  padding: 5px;
+}

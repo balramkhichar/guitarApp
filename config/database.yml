@@ -1,0 +1,18 @@
+development:
+  adapter: mysql
+  database: guitar_development
+  username: root
+  password: 1436
+  host: localhost
+test:
+  adapter: mysql
+  database: guitar_test
+  username: root
+  password: 1436
+  host: localhost
+production:
+  adapter: mysql
+  database: guitar_production
+  username: root
+  password: 1436
+  host: localhost
